@@ -1,0 +1,231 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13.02.2020, 21:07:09
+    Author     : Egor
+*/
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.woff) format("woff"),
+       url(../fonts/OpenSans-Regular.woff2) format("woff2"),
+       url(../fonts/OpenSans-Regular.ttf) format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Bold.woff) format("woff"),
+       url(../fonts/OpenSans-Bold.woff2) format("woff2"),
+       url(../fonts/OpenSans-Bold.ttf) format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content-box {
+  max-width: 1558px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("../images/football_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #0a0e34;
+  position: relative;
+  color: #ffffff;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0a0e34;
+  opacity: 0.9;
+}
+
+.header-content-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45px;
+  padding-bottom: 110px;
+}
+
+.logo-link-icon {
+  fill: #ffffff;
+  width: 192px;
+  margin-bottom: 280px;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 90px;
+  line-height: 100px;
+  font-weight: 700;
+  margin-bottom: 220px;
+}
+
+.header-title-part {
+  align-self: flex-end;
+}
+
+.download-block {
+  display: flex;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.download-block a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid #5e42b0;
+  background-color: #5e42b0;
+  border-radius: 50px;
+  padding: 20px 40px;
+  width: 315px;
+}
+
+.download-block a:first-child {
+  margin-right: 54px;
+}
+
+.app-icon, .google-play-icon {
+  fill: #ffffff;
+  width: 40px;
+  margin-right: 25px; 
+}
+
+.download-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.google-play-link {
+  font-weight: 700;
+}
+
+@media (max-width: 960px) {
+  .header {
+    background-image: url("../images/football_1280.jpg");
+  }
+  
+  .header-content-box {
+    padding-top: 38px;
+    padding-bottom: 90px;
+  }
+  
+  .logo-link-icon {
+    width: 206px;
+    margin-bottom: 168px;
+  }
+  
+  .header-title {
+    font-size: 64px;
+    line-height: 83px;
+    margin-bottom: 300px;
+  }
+  
+  .header-title-part {
+    margin-left: 106px;
+  }
+  
+  .download-block {
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+  }
+  
+  .download-block a {
+    padding: 15px 40px;
+    width: 100%;
+  }
+  
+  .download-block a:first-child {
+    margin-right: 30px;
+  }
+  
+  .app-icon, .google-play-icon {
+    width: 38px;
+    margin-right: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    background-image: url("../images/football_767.jpg");
+  }
+  
+  .header-content-box {
+    padding-top: 32px;
+    padding-bottom: 84px;
+  }
+  
+  .logo-link-icon {
+    width: 134px;
+    margin-bottom: 120px;
+  }
+  
+  .header-title {
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .header-title-part {
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  
+  .download-block {
+    flex-direction: column;
+    font-size: 8px;
+    line-height: 10px;
+    width: 100%;
+  }
+  
+  .download-block a {
+    margin-right: 0;
+    padding: 6px 40px;
+    width: 100%;
+  }
+  
+  .download-block a:nth-child(n+2) {
+    margin-top: 14px;
+  }
+  
+  .app-icon, .google-play-icon {
+    width: 20px;
+    margin-right: 8px;
+  }
+}
