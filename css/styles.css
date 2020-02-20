@@ -94,7 +94,7 @@ body {
 .logo-link-icon {
   fill: #ffffff;
   width: 192px;
-  margin-bottom: 280px;
+  margin-bottom: 295px;
 }
 
 .header-title {
@@ -105,6 +105,7 @@ body {
   font-size: 90px;
   line-height: 100px;
   font-weight: 700;
+  margin-top: 0;
   margin-bottom: 220px;
 }
 
@@ -272,8 +273,6 @@ h2 {
   color: #ffffff;
 }
 
-
-
 .promo-items {
   max-width: 1920px;
   margin: 0 auto;
@@ -299,7 +298,6 @@ h2 {
   padding-left: 190px;
   padding-right: 130px;
 }
-
 
 .promo-image, .promo-description {
   width: 50%;
@@ -331,9 +329,86 @@ h2 {
   height: 5px;
 }
 
+.footer {
+  background-image: url("../images/game_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #0a0e34;
+  position: relative;
+  color: #ffffff;
+}
 
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0a0e34;
+  opacity: 0.9;
+}
 
+.footer-content-box {
+  padding-top: 228px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
+.footer-content-title {
+  display: flex;
+  align-items: center;
+}
+
+.surface-logo {
+  width: 130px;
+  background-color: #6a4cc3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 14px;
+  border-radius: 25px;
+  margin-right: 34px;
+}
+
+.surface-logo .surface-logo-icon {
+  width: 100px;
+  fill: #ffffff;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title h1 {
+  font-size: 80px;
+  line-height: 60px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.footer-title span {
+  font-size: 30px;
+  line-height: 34px;
+  color: #a496ca;
+  font-weight: 400;
+}
+
+.footer-content-box .download-block {
+  margin-top: 150px;
+  margin-bottom: 260px;
+}
+
+.footer-content-box .logo-link-icon {
+  margin-bottom: 0;
+}
 
 
 @media (max-width: 960px) {
