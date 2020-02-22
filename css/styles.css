@@ -154,9 +154,9 @@ body {
   right: 50%;
 }
 
-.sport-section:nth-child(even) .sport-item-image {
+.sport-section:nth-child(even) .sport-item-preview {
   position: absolute;
-  left: 35%;
+  left: 25%;
 }
 
 .sport-section:nth-child(odd) .sport-item-content {
@@ -165,6 +165,10 @@ body {
 
 .sport-section:nth-child(even) .sport-item-content {
   padding-right: 50%;
+}
+
+.sport-section:nth-child(odd) .sport-section-content {
+  padding-left: 50px;
 }
 
 .sport-section:nth-child(even) .sport-items .sport-item:nth-child(3) {
@@ -266,8 +270,11 @@ body {
   padding-right: 130px;
 }
 
+.promo-image-preview {
+  height: 730px;
+}
 
-.promo-image, .promo-description {
+.promo-image-preview, .promo-description {
   width: 50%;
 }
 
