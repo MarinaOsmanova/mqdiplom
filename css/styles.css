@@ -140,6 +140,7 @@ body {
 .download-link {
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
 }
 
 .google-play-link {
@@ -264,13 +265,13 @@ body {
 }
 
 .promo-item:nth-child(even) .promo-description {
-  padding-left: 7%;
-  padding-right: 9%;
+  padding-left: 9%;
+  padding-right: 1%;
 }
 
 .promo-item:nth-child(odd) .promo-description {
-  padding-left: 9%;
-  padding-right: 7%;
+  padding-left: 1%;
+  padding-right: 9%;
 }
 
 .promo-image-preview, .promo-description {
@@ -312,10 +313,10 @@ body {
   height: 5px;
 }
 
-.promo-description .sport-item-title {
+/*.promo-description .sport-item-title {
   margin-top: 12%;
   margin-bottom: 16%;
-}
+}*/
 
 .footer {
   background-image: url("../images/game_1920.jpg");
