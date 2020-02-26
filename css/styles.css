@@ -530,10 +530,6 @@ body {
     width: 100%;
   }
 
-  .promo-image {
-    width: 100%;
-  }
-
   .promo-description {
     width: 100%;
     position: relative;
@@ -715,19 +711,6 @@ body {
 
   .promo-item {
     padding-bottom: 70px;
-  }
-
-  .promo-image-preview {
-    width: 100%;
-  }
-
-  .promo-image {
-    width: 100%;
-  }
-
-  .promo-description {
-    width: 100%;
-    position: relative;
   }
 
   .promo-item-counter {
