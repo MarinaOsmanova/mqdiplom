@@ -444,6 +444,10 @@ body {
   .download-block-link:first-child {
     margin-right: 30px;
   }
+  
+  .download-link {
+    flex-shrink: 0;
+  }
 
   .app-icon, .google-play-icon {
     width: 38px;
@@ -561,7 +565,7 @@ body {
   .footer-subtitle {
     margin-top: 28px;
   }
-
+  
 }
 
 @media (max-width: 640px) {
@@ -632,14 +636,16 @@ body {
 
   .sport-section:nth-child(odd) .sport-item-preview {
     position: absolute;
-    right: 18%;
+    left: calc(50% - 96px);
+    right: auto;
     top: 80px;
   }
 
   .sport-section:nth-child(even) .sport-item-preview {
     position: absolute;
-    left: 2%;
+    left: calc(50% - 151px);
     top: 92px;
+    right: auto;
   }
 
   .sport-section:nth-child(odd) .sport-item-content {
