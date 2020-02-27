@@ -651,15 +651,19 @@ body {
     right: auto;
   }
 
-  .sport-section .sport-item-content {
+  .sport-section:nth-child(odd) .sport-item-content {
     width: auto;
     left: auto;
+  }
+  
+  .sport-section:nth-child(even) .sport-item-content {
+    width: auto;
   }
 
   .sport-item-title {
     font-size: 50px;
     line-height: 60px;
-    margin-bottom: 328px;
+    margin-bottom: 300px;
   }
 
   .sport-item:first-child {
