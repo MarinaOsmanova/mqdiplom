@@ -388,7 +388,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 80px;
-  line-height: 60px;
+  line-height: 85px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -480,14 +480,15 @@ body {
     right: 0;
   }
 
-  /*.sport-section:nth-child(odd) .sport-item-content {
-    padding-left: 293px;
-    padding-right: 33px;
+  .sport-section:nth-child(odd) .sport-item-content {
+    width: 443px;
+    position: relative;
+    left: 262px;
   }
 
   .sport-section:nth-child(even) .sport-item-content {
-    padding-left: 33px;
-  }*/
+    width: 443px;
+  }
 
   .sport-item-subtitle {
     font-size: 32px;
