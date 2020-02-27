@@ -651,13 +651,10 @@ body {
     right: auto;
   }
 
-  /*.sport-section:nth-child(odd) .sport-item-content {
-    padding-left: 20px;
+  .sport-section .sport-item-content {
+    width: auto;
+    left: auto;
   }
-
-  .sport-section:nth-child(even) .sport-item-content {
-    padding-right: 20px;
-  }*/
 
   .sport-item-title {
     font-size: 50px;
