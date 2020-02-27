@@ -149,6 +149,7 @@ body {
 
 .sport-section {
   position: relative;
+  overflow-x: hidden;
 }
 
 .sport-section:nth-child(odd) .sport-item-preview {
@@ -160,7 +161,7 @@ body {
 .sport-section:nth-child(even) .sport-item-preview {
   position: absolute;
   top: 1%;
-  right: 10%;
+  left: calc(50% - 215px);
 }
 
 .sport-section:nth-child(odd) .sport-item-content {
@@ -474,8 +475,9 @@ body {
 
   .sport-section:nth-child(even) .sport-item-preview {
     position: absolute;
-    top: 5%;
+    top: 10%;
     right: 0;
+    left: auto;
   }
 
   .sport-section:nth-child(odd) .sport-item-content {
