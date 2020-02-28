@@ -280,11 +280,11 @@ body {
 
 .promo-item:nth-child(even) .promo-description {
   padding-left: 9%;
-  padding-right: 1%;
+  padding-right: 7%;
 }
 
 .promo-item:nth-child(odd) .promo-description {
-  padding-left: 1%;
+  padding-left: 7%;
   padding-right: 9%;
 }
 
@@ -512,6 +512,16 @@ body {
     margin-bottom: 30px;
   }
   
+  .sport-item-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
   .sport-item-title {
     margin-bottom: 60px;
   }
@@ -593,6 +603,20 @@ body {
     margin-top: 28px;
   }
   
+}
+
+@media (max-width: 735px) and (min-width: 641px) {
+  
+  .sport-section:nth-child(even) .sport-item-preview {
+    right: auto;
+    left: 284px;
+  }
+}
+
+@media (max-width: 702px) and (min-width: 641px) {
+  .footer-title {
+    font-size: 70px;
+  }
 }
 
 @media (max-width: 640px) {
