@@ -613,7 +613,7 @@ body {
   }
 }
 
-@media (max-width: 702px) and (min-width: 641px) {
+@media (max-width: 720px) and (min-width: 641px) {
   .footer-title {
     font-size: 70px;
   }
