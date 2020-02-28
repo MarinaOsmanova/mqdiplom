@@ -149,6 +149,9 @@ body {
 
 .sport-section {
   position: relative;
+}
+
+.sport-section:nth-child(even) {
   overflow-x: hidden;
 }
 
@@ -490,17 +493,32 @@ body {
   .sport-section:nth-child(even) .sport-item-content {
     width: 443px;
   }
+  
+  .sport-item:first-child {
+    padding-top: 86px;
+  }
+  
+  .sport-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
   .sport-item-subtitle {
     font-size: 32px;
+    line-height: 33px;
+  }
+  
+  .sport-item-subhead {
+    margin-bottom: 30px;
   }
 
   .sport-item-title {
-    margin-bottom: 62px;
+    margin-bottom: 60px;
   }
-
-  .sport-item:first-child {
-    padding-top: 86px;
+  
+  .sport-item-desc {
+    font-size: 16px;
+    line-height: 24px;
   }
   
   .promo-item {
@@ -549,6 +567,10 @@ body {
     margin-top: 80px;
   }
 
+  .footer {
+    background-image: url("../images/game_1280.jpg");
+  }
+  
   .footer-content-box {
     padding-top: 126px;
     padding-bottom: 22px;
@@ -576,8 +598,8 @@ body {
 @media (max-width: 640px) {
 
   body {
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .content-box {
@@ -739,6 +761,10 @@ body {
     margin-top: 34px;
   }
 
+  .footer {
+    background-image: url("../images/game_767.jpg")
+  }
+  
   .footer-content-box {
     padding-top: 100px;
     padding-bottom: 10px;
